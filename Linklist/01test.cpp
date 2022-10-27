@@ -43,7 +43,7 @@ public:
         Node *tmp = head;
         while (tmp != NULL)
         {
-            cout << tmp->data << endl;
+            cout << tmp->data<<"-->";
             tmp = tmp->next;
         }
     }
